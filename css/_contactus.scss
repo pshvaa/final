@@ -1,0 +1,197 @@
+.mapTouch{
+    overflow: hidden;
+    .mapContact{
+        position: relative;
+        z-index:-1;
+        iframe{
+            width: 100%;
+            height: 400px;
+        }
+    }
+.form-contact{
+  
+    position: absolute;
+
+  left:8%;
+  top:40%;
+  z-index: 1;
+  background-color: white;
+  padding:50px;
+
+  .tailored{
+      background-image:url(/photo/Tailored-Solutions.webp);
+      background-repeat: no-repeat;
+      background-size: cover;
+         position: sticky;
+    
+   color:white;
+  width: 100%;
+ height: 500px;
+
+  opacity: 1;
+  z-index: -1;
+.greenToil{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color:$main-green ;
+    width: 100%;
+    height: 500px;
+    opacity: 0.9;
+    z-index: 100;
+   padding: 40px 20px;
+    h3{
+        font-size: 22px;
+font-weight: 700;
+
+     }
+     p{
+        font-size: 16px;
+        padding: 30px 0;
+       
+      
+     }
+     .emergency{
+         ul{
+             li{
+                 padding: 10px ;
+                 font-size: 14px;
+                 font-weight: 700;
+              
+             }
+         }
+  
+  
+  
+        }
+        .btn-startNow{
+     margin-top:30px;
+          a{
+
+              text-align: center;
+              margin: auto;
+           width: 90%;
+           padding: 30px 22px;
+            display: inline-block;
+              color:$dark-color;
+              background-color:$white-color ;
+              font-weight: 700;
+              font-size: 15px;
+              i{
+                  margin-left: 60px;
+              }
+          }  
+        }
+    }
+  
+  
+  
+    }   
+}
+.getinTouch{
+   .btnSubmit{
+a{
+    display: inline-block;
+padding:20px 40px;
+    color:$white-color;
+    background-color: $dark-color;
+    margin-left:10px;
+}
+   }
+    p{
+        font-size: 17px;
+        color:$grey-p-color;
+        padding: 15px;
+          
+    }
+    h3{
+        font-size: 24px;
+        
+        padding: 15px;
+        font-weight: 700;
+    }
+    input{
+        color:$grey-p-color;
+        box-shadow: 0 0 0 2px #eaeaea inset;
+        background-color: transparent;
+width:100% ;
+border: 1px solid $grey-color1;
+        margin:10px;
+     padding: 0 20px;
+    height: 58px;
+     margin-bottom: 20px;
+     font-size: 14px;
+   &.additional{
+width: 100%;
+height:100px;
+
+
+   }
+ &:hover{
+    box-shadow: 0 0 0 2px $main-green inset;
+   
+ } 
+    }
+}
+
+
+}
+// section-1-end
+// section-2
+.lookFor{
+margin-top: 35%;
+    .topFortext{
+        text-align: center;
+        h2{
+            font-size: 38px;   
+            font-weight: 700;
+        }
+        p{
+            font-size: 17px;
+            color:$grey-p-color;
+            padding: 15px;
+              
+        }
+}
+.bootlooking{
+    ul{
+        li{
+            padding: 20px;
+            font-size: 19px;
+            font-weight: 650;
+            border-bottom: 1px solid $grey-color1 ;
+            &.boldbord{
+                border-top:5px solid $main-green;
+                            }
+       &:hover{
+           color:$main-green;
+       }
+        
+                        }
+
+
+        }
+    }
+.deapBottom{
+text-align: center;
+padding:40px 0;
+span{
+    font-size: 15px;
+    font-weight: 700;
+    display: inline-block;
+    color:$main-green;
+    border-bottom: 2px solid $main-green;
+    &:hover{
+    color:$dark-color;
+    }
+}
+p{
+   padding: 40px 0;
+    display: inline;
+    font-size: 15px;
+    font-weight: 700;
+    color: $grey-p-color;
+}
+}
+}
+@import"_responsive";

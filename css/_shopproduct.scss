@@ -1,0 +1,133 @@
+.proCosts{
+    overflow: hidden;
+.shopOver{
+    background-image: url(/photo/proBackground.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 700px;
+    position: relative;
+.overlay{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color:rgba(27, 26 ,26 , 0.6);
+color:white;
+text-align: center;
+.overText{
+    padding: 10%;
+    h1{
+        font-size: 90px;
+        padding:20px;
+        font-weight: 800
+    }
+    p{
+        font-size: 18px;
+        font-weight: 700;
+    }
+a{
+    margin: 20px 15px;
+    display: inline-block;
+    padding:20px 40px;
+    font-weight: 700;
+&.seeWhat{
+color:$dark-color;
+background-color: $white-color;
+
+border: 3px solid white;
+&:hover{
+    background-color: $main-green;
+  
+border: 3px solid $main-green;
+color:$white-color;
+}
+}
+&.prmHome{
+    color:$white-color;
+    border: 3px solid white;
+   &:hover{
+       background-color: $white-color;
+       color:$dark-color;
+   } 
+}
+}
+}
+}
+}
+.productUs-bottom{
+    
+    border-bottom: 1px solid #eaeaea;
+text-align: center;
+color:#9b9b9b ; 
+padding: 20px 0;
+
+a{
+    font-size: 16px;
+    font-weight: 700;
+   color: #616161 ; 
+    i{
+        font-size: 10px; 
+    }
+
+}
+
+}
+}
+// i{
+//     color:$white-color;
+//     background-color: $main-green;
+//     padding: 18px;
+
+// } 
+
+// section--end-1
+.catagories{
+    margin-top: 50px;
+    .leftCatagories{
+        .cameraBoxes{
+overflow: hidden;
+padding-top: 40px;
+   
+            i{
+   color:$white-color;
+    background-color: $main-green;
+     padding: 25px;
+  z-index: -1;
+    } 
+ .ftext-shop{
+    text-align: center;
+    transform: translateY(-40px);
+    z-index: 1;
+ } 
+
+ .cameraFsh{
+transition: 0.5s ease;
+
+    .overlay{
+       border: 25px solid white;
+       transition: 0.5s ease;
+       z-index: 5;
+   }
+&:hover{
+    box-shadow: 0px 0px 100px 0px #aeaeae;
+ 
+i{
+    transform: translate(8px,-60px);
+
+}
+
+}
+}
+        }
+    }
+}
+
+
+     
+             
+
+
+
