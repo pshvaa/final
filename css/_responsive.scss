@@ -1,3 +1,64 @@
  @media (max-width:576px){
+.catagories{
+  .leftCatagories{
+    .tlcatas{
+        input{
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+
+}
+.rightCatagories{
+    .filterList{
+        width: 100%;
+    }
+}
+}
+// *****
+.dustMan{
+    .leftGreen{
+        .greenImg{
+            transform:translate(12% ,120%);
+        }
+    }
+} 
+.sauterlogo{
+    span{
+  display: none;
+    
+    }
+    .stanPro{
+        .bestprac-bottom{
+          
+            .fleXiblebox{
+                display: none;
+            }
+            .locsupport{
+                display: none;
+            }
+            .lowVoltage{
+display: none;
+            }
+       
+       
+       
+        } 
+    }
+
+
+
+}
+.recentArt{
+    span{
+   display: none;
+    }
+}
+.stanPro{
+
+}
+
+
+
 
 }

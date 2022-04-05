@@ -76,53 +76,353 @@ a{
 
 }
 }
-// i{
-//     color:$white-color;
-//     background-color: $main-green;
-//     padding: 18px;
 
-// } 
 
 // section--end-1
 .catagories{
-    margin-top: 50px;
+    margin: 50px 0;
     .leftCatagories{
+        .tlcatas{
+            span{
+                font-size: 14px;
+                font-weight: 700;
+            }
+            input{
+                box-shadow: 0 0 0 2px $grey-color1;
+                border: 1px solid #eaeaea;
+                padding: 10px  ;
+            }
+        }
         .cameraBoxes{
-overflow: hidden;
-padding-top: 40px;
+padding: 40px 0;
    
             i{
+                font-size: 20px;
    color:$white-color;
     background-color: $main-green;
      padding: 25px;
-  z-index: -1;
-    } 
+  z-index: -5;
+  opacity: 0; 
+  transition: 0.3s ease-in-out;
+} 
+
  .ftext-shop{
     text-align: center;
     transform: translateY(-40px);
-    z-index: 1;
+    h6{
+        color: $main-green;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    h3{
+        font-weight: 600;
+font-size: 20px;
+        &:hover{
+            color: $main-green;
+        }
+    }
  } 
 
  .cameraFsh{
 transition: 0.5s ease;
-
+z-index: 100;
     .overlay{
-       border: 25px solid white;
+       border: 20px solid white;
        transition: 0.5s ease;
-       z-index: 5;
+       overflow: hidden;
+       z-index: -1;
+
    }
 &:hover{
-    box-shadow: 0px 0px 100px 0px #aeaeae;
+    box-shadow: 5px 0px 15px 0px #aeaeae;
  
 i{
-    transform: translate(8px,-60px);
+    transform: translate(5px,-67px);
+
+    opacity: 1;
 
 }
 
 }
 }
+
+.cameraWire{
+    transition: 0.5s ease;
+    z-index: 100;
+        .overlay{
+           border: 20px solid white;
+           transition: 0.5s ease;
+           overflow: hidden;
+           z-index: -1;
+    
+       }
+    &:hover{
+        box-shadow: 5px 0px 15px 0px #aeaeae;
+     
+    i{
+        transform: translate(5px,-67px);
+    
+        opacity: 1;
+    
+    }
+    
+    }
+    }
+    .cameraCctv{
+        transition: 0.5s ease;
+        z-index: 100;
+            .overlay{
+               border: 20px solid white;
+               transition: 0.5s ease;
+               overflow: hidden;
+               z-index: -1;
+        
+           }
+        &:hover{
+            box-shadow: 5px 0px 15px 0px #aeaeae;
+         
+        i{
+            transform: translate(5px,-67px);
+        
+            opacity: 1;
+        
+        }
+        
+        }
+        }
+        .cameraUltra{
+            transition: 0.5s ease;
+            z-index: 100;
+                .overlay{
+                   border: 20px solid white;
+                   transition: 0.5s ease;
+                   overflow: hidden;
+                   z-index: -1;
+            
+               }
+            &:hover{
+                box-shadow: 5px 0px 15px 0px #aeaeae;
+             
+            i{
+                transform: translate(5px,-67px);
+            
+                opacity: 1;
+            
+            }
+            
+            }
+            }
+            .cameraFull{
+                transition: 0.5s ease;
+                z-index: 100;
+                    .overlay{
+                       border: 20px solid white;
+                       transition: 0.5s ease;
+                       overflow: hidden;
+                       z-index: -1;
+                
+                   }
+                &:hover{
+                    box-shadow: 5px 0px 15px 0px #aeaeae;
+                 
+                i{
+                    transform: translate(5px,-67px);
+                
+                    opacity: 1;
+                
+                }
+                
+                }
+                }
+                .cameraWifi{
+                    transition: 0.5s ease;
+                    z-index: 100;
+                        .overlay{
+                           border: 20px solid white;
+                           transition: 0.5s ease;
+                           overflow: hidden;
+                           z-index: -1;
+                    
+                       }
+                    &:hover{
+                        box-shadow: 5px 0px 15px 0px #aeaeae;
+                     
+                    i{
+                        transform: translate(5px,-67px);
+                    
+                        opacity: 1;
+                    
+                    }
+                    
+                    }
+                    }
+                    .cameraAddon{
+                        transition: 0.5s ease;
+                        z-index: 100;
+                            .overlay{
+                               border: 20px solid white;
+                               transition: 0.5s ease;
+                               overflow: hidden;
+                               z-index: -1;
+                        
+                           }
+                        &:hover{
+                            box-shadow: 5px 0px 15px 0px #aeaeae;
+                         
+                        i{
+                            transform: translate(5px,-67px);
+                        
+                            opacity: 1;
+                        
+                        }
+                        
+                        }
+                        }
+                        .cameraHdhome{
+                            transition: 0.5s ease;
+                            z-index: 100;
+                                .overlay{
+                                   border: 20px solid white;
+                                   transition: 0.5s ease;
+                                   overflow: hidden;
+                                   z-index: -1;
+                            
+                               }
+                            &:hover{
+                                box-shadow: 5px 0px 15px 0px #aeaeae;
+                             
+                            i{
+                                transform: translate(5px,-67px);
+                            
+                                opacity: 1;
+                            
+                            }
+                            
+                            }
+                        }
+                        .cameraDoor{
+                            transition: 0.5s ease;
+                            z-index: 100;
+                                .overlay{
+                                   border: 20px solid white;
+                                   transition: 0.5s ease;
+                                   overflow: hidden;
+                                   z-index: -1;
+                            
+                               }
+                            &:hover{
+                                box-shadow: 5px 0px 15px 0px #aeaeae;
+                             
+                            i{
+                                transform: translate(5px,-67px);
+                            
+                                opacity: 1;
+                            
+                            }
+                            
+                            }
+                        }
+        }
+        .cameraBottom{
+            text-align: center;
+            margin-left: 20px;
+            span{
+                display: inline-block;
+                border: 3px solid $grey-color1 ;
+                padding:11px 20px;
+                font-weight: 700;
+                font-size: 20px;
+                &:hover{
+                    border: 3px solid $main-green ;
+                    background-color: $main-green;
+                   color: $white-color;
+                }
+                &.ariaf{
+                border: 3px solid $main-green ;
+                     background-color: $main-green;
+                    color: $white-color;
+                }
+            }
         }
     }
+   .rightCatagories{
+       margin-left: 20px;
+    h4{
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .cataList{
+       
+        ul{
+               li{
+                   span{
+                       display: inline-block;
+                       color:$main-green;
+                       font-weight: 700;
+                       margin-bottom: 10px;
+                   }
+               }
+           }
+       }
+     .searchList{
+         margin: 40px 0;
+         input{
+             padding: 20px 40px;
+             box-shadow: 0 0 0 2px $grey-color1;
+             border: 1px solid #eaeaea;
+         }
+     }  
+     .proList{
+         i{
+             color:#FFC400;
+         }
+         h5{
+             font-weight: 600;
+         }
+         span{
+             color:$main-green;
+             font-weight: 700;
+             &.redDel{
+                 color:red;
+             }
+         }
+         .proHdlens{
+             margin:20px 0;
+         }
+         .proWire{
+            margin:20px 0;
+        }
+        .proCctv{
+            margin:20px 0;
+        }
+     }
+     .filterList{
+         h4{
+            border-bottom: 5px solid $main-green;
+          padding-bottom: 30px;
+
+         }
+span{
+    margin:0  30px;
+    font-weight: 700;
+}
+     }
+     .tagList{
+         margin-top: 40px;
+         span{
+            display: inline-block;
+            color:$main-green;
+             font-size: 12px;
+             padding:3px 10px;
+             margin: 5px;
+            box-shadow: $grey-color1;
+             &:hover{
+                 background-color: $main-green;
+                 color:white;
+             }
+         }
+     }
+   }
 }
 
 

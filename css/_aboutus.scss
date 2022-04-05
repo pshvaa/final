@@ -236,7 +236,7 @@ width: 100%;
 height: 855px;
 
 .greenImg{
-     position: relative;
+    //  position: relative;
     background-color:$main-green ;
 color: white;
 text-align: center;
@@ -245,9 +245,8 @@ transform: translate(11.1% ,145%);
     height: 390px;
   
   .bottomGreen{
- position: absolute;
-top:20%;
- left: 10%;
+
+transform: translateY(20%);
    padding:0 20px;
   line-height: 40px;
     h3{
@@ -831,8 +830,7 @@ color: white;
 //section-5
 //sauterlogo
 .sauterlogo{
-    // transform:translateY(300px) ; 
-    // margin-top: 20%;
+    
     padding: 40px;
     p{
         display: inline;
@@ -842,6 +840,7 @@ font-size: 15px;
     }
     span{
 font-weight: 600;
+display: inline-block;
 border-bottom: 1px solid $main-green;
 &:hover{
 color:$main-green;
